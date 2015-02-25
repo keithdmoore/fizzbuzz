@@ -3,7 +3,7 @@ require 'json'
 
 class FizzbuzzControllerTest < ActionController::TestCase
 
-  test "should get fizzbuzzer" do
+  test "should get fizzbuzz" do
     get(:fizzbuzzer, {'value' => "15"})
     assert_response :success
     # TODO: Find a better way of testing the json response
