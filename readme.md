@@ -8,8 +8,8 @@ The details of this are as follows:
 For multiples of three, the call should return "Fizz".
 For multiples of five, it should return "Buzz".
 For multiples of both three and five it should return "FizzBuzz".
-If none of these, return an empty string.
-a.The controller responsible for determining FizzBuzz-ness should have tests for it which pass when run  
+If none of these, return an empty string.   
+a. The controller responsible for determining FizzBuzz-ness should have tests for it which pass when run  
 b. While the client will only be responsible for printing out the numbers 1-100, the controller should be able to handle any (reasonable) positive or negative integer  
 c. Invalid (i.e. non-integer) values should return a 404  
 
